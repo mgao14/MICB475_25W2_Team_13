@@ -17,6 +17,9 @@
 
    Anemia during Infancy:
    - Does taking different types of iron supplementation lead to difference in gut microbiome compositions of anemic infants?
+
+   Alcohol Consumption:
+   - Are the oral microbiome community composition variations caused by alcohol consumption associated to specific alcohol-related diseases? Possibly cross reference with smoking.
      
 ### Meeting Minutes
 ### To-Do
