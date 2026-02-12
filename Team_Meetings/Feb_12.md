@@ -32,12 +32,12 @@
   Background information on MNP & FeSO4
 
   MNP:
-  - Used to fortify foods
-  - Often contains iron (usually in the form of ferrous sulphate, ferrous fumarate, NaFeEDTA, or ferrous bisglycinate) and other vitamins and minerals - Need to determine which form of iron and dosage was used
-  - Should contain 12.5mg of elemental iron per sachet (which corresponds to 62.5 mg of ferrous sulfate)
+- Used to fortify foods
+- Often contains iron (usually in the form of ferrous sulphate, ferrous fumarate, NaFeEDTA, or ferrous bisglycinate) and other vitamins and minerals - Need to determine which form of iron was used and dosage
+- Should contain 12.5mg of elemental iron per sachet (which corresponds to 62.5 mg of ferrous sulfate)
     
   FeSO4:
-  - Well-absorbed form of iron - Need to know which type/form (tablet, syrup, etc.) was used to determine accurate iron dosage
+- Well-absorbed form of iron - Need to know which type/form (tablet, syrup, etc.) was used to determine accurate iron dosage
      
 4. Hypothesis: ?
 
