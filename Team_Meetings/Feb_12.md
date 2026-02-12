@@ -28,9 +28,10 @@
   - FeSO4 vs None
   - MNP vs FeSO4
 - Can we stratify by age? Sex?
+     
+4. Hypothesis: ?
 
-  Background information on MNP & FeSO4
-
+### Background Information on each Iron Supplement:
   MNP:
   - Used to fortify foods
   - Often contains iron (usually in the form of ferrous sulphate, ferrous fumarate, NaFeEDTA, or ferrous bisglycinate) and other vitamins and minerals - Need to determine which form of iron was used and dosage
@@ -38,9 +39,6 @@
     
   FeSO4:
   - Well-absorbed form of iron - Need to know which type/form (tablet, syrup, etc.) was used to determine accurate iron dosage
-     
-4. Hypothesis: ?
-
 
 ### Questions:
 - Not able to find info about the iron form used in MNP & dosage of supplements used for the dataset - Does it still allow us to continue with this research question? How will it affect the ways we do our analysis? 
