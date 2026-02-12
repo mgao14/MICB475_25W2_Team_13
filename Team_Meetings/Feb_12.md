@@ -1,12 +1,13 @@
-QIIME2 Preprocessing So Far:
+# February 12, 2026 Team Meeting
+### QIIME2 Preprocessing So Far:
 - Create folder in working directory --> data/project_2_anemia
 - Import and demultiplex data --> data/project_2_anemia/demux_seqs.qza
 - Create visualization for demultiplexed files --> data/project_2_anemia/demux_seqs.qzv
 - Output qzv to visualize on QIIME2 viewer
 - Try trimming to: 320
 
-Things to be decided: 
-Subset of data to use: 6 or 12 months?
+### Things to be decided: 
+1. Subset of data to use: 6 or 12 months?
 - 12 month data has been used by a previous group -  https://ojs.library.ubc.ca/index.php/UJEMI/article/view/198250 
   - Looking at anemic group only: (and infection status)
   - ​​Analysis  of  fecal  microbial  diversity  based  on  supplementation  status.
@@ -18,16 +19,18 @@ Subset of data to use: 6 or 12 months?
   - Most papers study infants older than 6 months - might be harder to find resources if use the 6 month subset
     - So according to the other UJEMI paper, we are looking at something different, so I think we can use the 12-month data or both?
 
-Aim: Effect of Iron Supplement on Infant Gut Microbiome
-Research Question: How do different iron supplements affect the gut microbiome of infants?
+2. Aim: Effect of Iron Supplement on Infant Gut Microbiome
+   
+3. Research Question: How do different iron supplements affect the gut microbiome of infants?
 - Anemic vs Healthy; Healthy and Anemic
   - MNP vs None
   - FeSO4 vs None
   - MNP vs FeSO4
 - Can we stratify by age? Sex?
-Hypothesis: ?
+4. Hypothesis: ?
 
-Questions:
+
+### Questions:
 - Not able to find info about the iron form used in MNP & dosage of supplements used for the dataset - Does it still allow us to continue with this research question? How will it affect the ways we do our analysis? 
   - Iron form: 
   - Dosage: 
