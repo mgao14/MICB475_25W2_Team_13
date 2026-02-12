@@ -22,11 +22,22 @@
 2. Aim: Effect of Iron Supplement on Infant Gut Microbiome
    
 3. Research Question: How do different iron supplements affect the gut microbiome of infants?
+   
 - Anemic vs Healthy; Healthy and Anemic
   - MNP vs None
   - FeSO4 vs None
   - MNP vs FeSO4
 - Can we stratify by age? Sex?
+
+  Background information on MNP & FeSO4
+  MNP:
+  - Used to fortify foods
+  - Often contains iron (usually in the form of ferrous sulphate, ferrous fumarate, NaFeEDTA, or ferrous bisglycinate) and other vitamins and minerals - Need to determine which form of iron and dosage was used
+  - Should contain 12.5mg of elemental iron per sachet (which corresponds to 62.5 mg of ferrous sulfate)
+    
+  FeSO4:
+  - Well-absorbed form of iron - Need to know which type/form (tablet, syrup, etc.) was used to determine accurate iron dosage
+     
 4. Hypothesis: ?
 
 
