@@ -13,6 +13,11 @@
     3. Advantages of MNP: Assuming the MNP contains ferrous fumarate along with vitamin C, vitamin A, zinc, and folic acid, absorption enhancers like vitamins C and A can increase iron uptake in the duodenum, reducing the fraction of iron that reaches the colon. Although ferrous fumarate is slightly less soluble than ferrous sulfate, its absorption is comparable when adjusted for elemental iron and combined with these enhancers, thereby minimizing impacts on commensal bacteria.
     - Overall: MNP supplementation may improve iron absorption in the small intestine, reducing colonic unabsorbed iron and its potential disruptive effects on the gut microbiome.
    
+- Discuss aims
+  - Aim 1: Determine how the microbial diversity differs after receiving MPN, FeSO4, or no supplementation in (healthy and anemic) infants. (Diversity matrix + Core microbiome analysis)
+  - Aim 2: Identify bacterial species that are differentially abundant upon iron supplementation with MPN or FeSO4 or no supplementation. (DESeq)
+  - Aim 3: Functional analyses of bacteria of interest across supplementation (and anemia) status. (PiCRUSt)
+   
 - Questions:
   - How to cite UJEMI papers
   - Original paper said that samples were collected from 95 infants but the metadata has 180+ samples (we will be analyzing 187 samples) → which number should we use for the introduction/background to state how many samples are there
