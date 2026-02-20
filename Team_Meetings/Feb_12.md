@@ -46,3 +46,32 @@
   - Dosage: 
 - There are also other categories: e.g. crp (inflammation) or infection status – do we have to account for the change in microbial diversity caused by infections in infected vs non-infected babies as well? Does microbial diversity change because they are infected? What exactly is the infection status?
   - Update: read the other UJEMI paper and they found: No significant difference in fecal microbial diversity across   anemic patients  during  different stages of infection.
+
+### Meeting Notes:
+- Don’t need to filter the data for now (no stratification)
+  - Start without stratification by age. Could see stronger results between groups
+  - If cluster then we can stratify by age
+    
+- QS: No info on type of iron in MNP and concentration of the treatment used?
+  - Leave this behind, can move on
+  - State the assumption about what iron and what common minerals are used in MNP → explain why
+    - Look at the brand used in the country where the study was done and just state that you are assuming the mineral contents of common brands
+  - Also look into what irons are usually used in supplements in general
+  - Could be a limitation in our paper: looking at a group that got treatment, but no specific information
+    
+- Research aim: Examine effect of diff iron supplements on microbiome → How to examine effect?
+  - Diversity matrix: alpha or beta (MPN vs FeSO4 → PCoA plot)
+    - See how microbiome is changed with different supplements
+    - Beta diversity: Good to add ellipses when making a PCoA (5% confidence): to visualize if 2 clusters overlap or not
+    - Alpha diversity: can include taxonomic bar plot to see abundance of entire microbial community across samples
+  - Core microbiome analysis: main species across samples
+  - Indicator species analysis : unique species in a sample
+  - DESeq: Differential abundance between species
+  - PiCRUSt (functional potential)
+    
+- Hypothesis: what if there’s not enough existing source to support?
+  - Break down the question: iron and iron+vitamins
+  - How does iron affect microbes → increase/decrease diversity
+  - How do vitamins, Zinc & other elements effect → are they useful for microbes
+  - Look at how iron alone or iron with other supplements effect microbes
+
