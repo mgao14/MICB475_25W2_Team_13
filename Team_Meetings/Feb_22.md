@@ -14,6 +14,7 @@ Supplementation only
 - Do iron supplementation cause an overgrowth of pathogenic bacteria in the gut?
 
 2. Finalize Hypothesis
+
 Question for hypothesis: Should we be mentioning the different beneficial and pathogenic taxa in the hypothesis? 
 
 Current: We therefore hypothesize that FeSO₄ supplementation administered alone will result in greater amounts of unabsorbed iron reaching the colon compared to MNP containing ferrous fumarate, vitamin C, and vitamin A. Consequently, we predict that FeSO₄ supplementation will lead to overgrowth of iron-dependent pathogenic bacteria and a reduction in protective commensal taxa compared to MNP supplementation.
