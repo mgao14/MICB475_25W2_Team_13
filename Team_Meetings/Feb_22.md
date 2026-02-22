@@ -15,8 +15,6 @@ Supplementation only
 
 2. Finalize Hypothesis
 
-Question for hypothesis: Should we be mentioning the different beneficial and pathogenic taxa in the hypothesis? 
-
 Current: We therefore hypothesize that FeSO₄ supplementation administered alone will result in greater amounts of unabsorbed iron reaching the colon compared to MNP containing ferrous fumarate, vitamin C, and vitamin A. Consequently, we predict that FeSO₄ supplementation will lead to overgrowth of iron-dependent pathogenic bacteria and a reduction in protective commensal taxa compared to MNP supplementation.
 Others
 
@@ -38,3 +36,6 @@ Aim 4: Predict microbial metabolic pathways to evaluate functional consequence
 4. Title ideas: 
 - Unabsorbed Iron from FeSO4 Promotes Pathogenic Bacterial Expansion in Infant Gut Microbiome Compared to Multinutrient Powder
 - Investigating the effect of unabsorbed iron on gut microbiota of healthy/anemic infants treated with FeSO4 and Multinutrient Powder supplements
+
+# Questions:
+- Question for hypothesis: Should we be mentioning the different beneficial and pathogenic taxa in the hypothesis? 
