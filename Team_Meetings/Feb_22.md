@@ -1,6 +1,7 @@
-###Agenda
+# February 22nd, 2026 Team Meeting
+### Agenda
 
-##Questions about the proposal/things to decide: 
+## Questions about the proposal/things to decide: 
 1. Finalize RQ
 Current: Do iron supplements with varying absorption efficiencies alter the abundance of pathogenic and commensal bacteria in the gut microbiome?
 
