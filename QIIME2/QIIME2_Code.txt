@@ -18,3 +18,33 @@ qiime demux summarize \
 
 # Export demux_seqs.qzv to local computer
 scp root@10.19.139.196:/data/project_2_anemia/demux_seqs.qzv .
+
+
+
+# Export QIIME2 files into human readable files to prepare for phyloseq object creation
+
+# Make new directory anemia_export
+cd /
+cd data
+mkdir anemia_export
+cd anemia_export
+
+# Export taxonomy & rooted tree
+qiime tools export \
+--input-path ../project_2_anemia/taxonomy.qza \
+--output-path taxonomy_export 
+
+qiime tools export \
+--input-path ../project_2_anemia/rooted-tree.qza \
+--output-path rooted_tree_export
+
+# Export taxa & feature filtered table
+qiime tools export \
+--input-path ../project_2_anemia/feature-frequency-filtered-table.qza \
+--output-path table_export
+
+cd table_export
+biom convert \
+-i feature-table.biom \
+--to-tsv \
+-o feature-table.txt
