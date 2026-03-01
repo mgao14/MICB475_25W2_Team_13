@@ -19,7 +19,111 @@ qiime demux summarize \
 # Export demux_seqs.qzv to local computer
 scp root@10.19.139.196:/data/project_2_anemia/demux_seqs.qzv .
 
+# Determine ASVs with DADA2
+qiime dada2 denoise-single \
+  --i-demultiplexed-seqs demux_seqs.qza \
+  --p-trim-left 0 \
+  --p-trunc-len 250 \ # Tried 320 first but only retained 5 samples
+  --o-representative-sequences rep-seqs.qza \
+  --o-table table.qza \
+  --o-denoising-stats stats.qza
 
+# Visualize ASV stats
+qiime feature-table summarize \
+  --i-table table.qza \
+  --o-visualization table.qzv \
+  --m-sample-metadata-file /datasets/project_2/anemia/anemia_metadata.txt
+
+qiime feature-table tabulate-seqs \
+  --i-data rep-seqs.qza \
+  --o-visualization rep-seqs.qzv
+
+# Export table.qzv and rep-seqs.qzv to local computer
+scp root@10.19.139.196:/data/project_2_anemia/table.qzv .
+scp root@10.19.139.196:/data/project_2_anemia/rep-seqs.qzv .
+
+# Train to classifier
+qiime feature-classifier classify-sklearn \
+  --i-classifier /datasets/classifiers/silva-138-99-515-806-nb-classifier.qza \
+  --i-reads rep-seqs.qza \
+  --o-classification taxonomy.qza
+
+qiime metadata tabulate \
+  --m-input-file taxonomy.qza \
+  --o-visualization taxonomy.qzv
+
+# Export taxonomy.qzv to local computer
+scp root@10.19.139.196:/data/project_2_anemia/taxonomy.qzv .
+
+qiime taxa barplot \
+  --i-table table.qza \
+  --i-taxonomy taxonomy.qza \
+  --m-metadata-file /datasets/project_2/anemia/anemia_metadata.txt \
+  --o-visualization taxa-bar-plots.qzv
+
+# Export taxa-bar-plots.qzv to local computer
+scp root@10.19.139.196:/data/project_2_anemia/taxa-bar-plots.qzv .
+
+qiime taxa filter-table \
+  --i-table table.qza \
+  --i-taxonomy taxonomy.qza \
+  --p-exclude mitochondria,chloroplast \
+  --o-filtered-table table-no-mitochondria-no-chloroplast.qza
+
+# Filter out other/not collected for supplement
+qiime feature-table filter-samples \
+  --i-table table-no-mitochondria-no-chloroplast.qza \
+  --m-metadata-file /datasets/project_2/anemia/anemia_metadata.txt \
+  --p-where "[supplement] NOT IN ('Missing: Not collected', 'Other')" \
+  --o-filtered-table supplement-filtered-table.qza
+
+qiime feature-table summarize \
+  --i-table supplement-filtered-table.qza \
+  --o-visualization supplement-filtered-table.qzv \
+  --m-sample-metadata-file /datasets/project_2/anemia/anemia_metadata.txt
+
+# Export supplement-filtered-table.qzv to local computer
+scp root@10.19.139.196:/data/project_2_anemia/supplement-filtered-table.qzv .
+
+# Filter by age
+qiime feature-table filter-samples \
+  --i-table supplement-filtered-table.qza \
+  --m-metadata-file /datasets/project_2/anemia/anemia_metadata.txt \
+  --p-where "[age_months] IN ('6')" \
+  --o-filtered-table age-filtered-table.qza
+
+# Filter by count
+qiime feature-table filter-features \
+  --i-table age-filtered-table.qza \
+  --p-min-frequency 5 \
+  --o-filtered-table feature-frequency-filtered-table.qza
+
+qiime feature-table summarize \
+  --i-table feature-frequency-filtered-table.qza \
+  --o-visualization feature-frequency-filtered-table.qzv \
+  --m-sample-metadata-file /datasets/project_2/anemia/anemia_metadata.txt
+
+# Export supplement-filtered-table.qzv to local computer
+scp root@10.19.139.196:/data/project_2_anemia/feature-frequency-filtered-table.qzv .
+
+# Generate a tree for phylogenetic diversity analyses
+qiime phylogeny align-to-tree-mafft-fasttree \
+  --i-sequences rep-seqs.qza \
+  --o-alignment aligned-rep-seqs.qza \
+  --o-masked-alignment masked-aligned-rep-seqs.qza \
+  --o-tree unrooted-tree.qza \
+  --o-rooted-tree rooted-tree.qza 
+
+# Alpha-rarefaction
+qiime diversity alpha-rarefaction \
+  --i-table supplement-filtered-table.qza \
+  --i-phylogeny rooted-tree.qza \
+  --p-max-depth 60000 \
+  --m-metadata-file /datasets/project_2/anemia/anemia_metadata.txt \
+  --o-visualization alpha-rarefaction.qzv
+
+# Export alpha-rarefaction.qzv to local computer
+scp root@10.19.139.196:/data/project_2_anemia/alpha-rarefaction.qzv .
 
 # Export QIIME2 files into human readable files to prepare for phyloseq object creation
 
