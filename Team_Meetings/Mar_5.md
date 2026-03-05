@@ -10,15 +10,19 @@
 
 
 1. Revised Proposal Title Ideas:
+
 Original: Investigating the Effects of Unabsorbed Iron on the Gut Microbiome of Healthy and Anemic Infants Treated with Ferrous Sulfate and Micronutrient Powder Supplementation
-Comment: "We want to be careful with this one because you are technically assuming one supplement is better absorbed than the other but we don’t have a direct measure of unabsorbed iron that we are comparing. I would revise the title to better reflect that you are comparing supplements with different absorption efficiencies"
+
+Suggestion: "We want to be careful with this one because you are technically assuming one supplement is better absorbed than the other but we don’t have a direct measure of unabsorbed iron that we are comparing. I would revise the title to better reflect that you are comparing supplements with different absorption efficiencies"
 
 - Exploring/Investigating the Effects of Iron Supplements with Different Absorption Efficiencies on the Gut Microbiome of Healthy and Anemic Infants
 - Investigating the Effects of Iron Supplement Formulations on the Gut Microbiome of Healthy and Anemic Infants by Linking Microbial Changes to Iron Absorption Efficiency
 
 2. Revised Proposal Research Question Ideas:
+
 Original: Do different iron absorption levels from iron supplements alter microbial diversity to favour pathogenic bacteria?
-Comment: "Maybe flip this around: do iron supplements with different levels of gut absorption efficiency alter… In the metadata, the unabsorbed iron is not directly measured but rather the supplements are annotated so we have to make sure it’s clear what is established that we can compare"
+
+Suggestion: "Maybe flip this around: do iron supplements with different levels of gut absorption efficiency alter… In the metadata, the unabsorbed iron is not directly measured but rather the supplements are annotated so we have to make sure it’s clear what is established that we can compare"
 
 - Do iron supplements with different absorption efficiencies alter/affect gut microbial diversity/composition?
 - Do iron supplements with different formulations/absorption efficiencies affect the abundance of pathogenic and beneficial bacteria in the infant gut microbiome?
