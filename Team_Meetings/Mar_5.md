@@ -29,13 +29,13 @@ Suggestion: "Maybe flip this around: do iron supplements with different levels o
 - Does supplementation with ferrous sulfate, compared to MNP containing ferrous fumarate, vitamin C, and vitamin A, lead to greater overgrowth of iron-dependent pathogenic bacteria?
 
 ### Other Questions:
-Would it be better for us to do Indicator Species Analysis for aim 2 as well?
-Combine indicator species analysis (shows which taxa is unique → a stable with ASV) with core microbiome (this generates a ven diagram → abundance threshold 0.01 and prevalence threshold 0.7 - if don’t see difference, need to lower threshold) 
-We already removed ASVs with less than 5 counts in QIIME2. Is it best practice to still filter this in R, or would it be redundant?
-Stick to 5
-Redundancy in the script is not an issue
-Should we prune samples with less than 100 reads?
-No effect on samples 
+- Would it be better for us to do Indicator Species Analysis for aim 2 as well?
+- - Combine indicator species analysis (shows which taxa is unique → a stable with ASV) with core microbiome (this generates a ven diagram → abundance threshold 0.01 and prevalence threshold 0.7 - if don’t see difference, need to lower threshold) 
+- We already removed ASVs with less than 5 counts in QIIME2. Is it best practice to still filter this in R, or would it be redundant?
+-- Stick to 5
+-- Redundancy in the script is not an issue
+- Should we prune samples with less than 100 reads?
+-- No effect on samples 
 
 
 ### Meeting minutes
@@ -45,8 +45,8 @@ Stick to 6 months for data as it’s well rationalized
 
 ### To-do (Meetings: March 12, 19, 26 and April 2, 9)
 Presentation (Due April 5th)
-Complete data by March 26th (go through all data in March 26th meeting)
-Complete slides by April 2nd (polish slides + fix narrative in April 2nd meeting)
+- Complete data by March 26th (go through all data in March 26th meeting)
+- Complete slides by April 2nd (polish slides + fix narrative in April 2nd meeting)
 Manuscript 
 
 
