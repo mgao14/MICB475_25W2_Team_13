@@ -1,0 +1,75 @@
+#Load library
+library(tidyverse)
+library(phyloseq)
+library(ape) # importing trees
+library(vegan)
+
+###Load data###
+
+#Load metadata
+meta <- read_delim(file="anemia_metadata.txt", delim="\t")
+  
+#Load OTU table
+otu <- read_delim(file="anemia_export/table_export/feature-table.txt", delim="\t", skip=1)
+
+#Load taxonomy
+tax <- read_delim(file="anemia_export/taxonomy_export/taxonomy.tsv", delim="\t")
+
+#Load rooted tree
+phylotree <- read.tree("anemia_export/rooted_tree_export/tree.nwk")
+
+
+#### Format OTU table ####
+
+# save everything except first column (#OTU ID) into a matrix
+otu_mat <- as.matrix(otu[,-1])
+# Make OTU ID the rownames of the new matrix
+rownames(otu_mat) <- otu$`#OTU ID`
+# Use the "otu_table" function to make an OTU table
+OTU <- otu_table(otu_mat, taxa_are_rows = TRUE) 
+class(OTU)
+
+#### Format metadata ####
+
+# Save everything except #SampleID as new data frame
+samp_df <- as.data.frame(meta[,-1])
+# Make Sample ID the rownames
+rownames(samp_df)<- meta$'#SampleID'
+# Make phyloseq sample data with sample_data() function
+SAMP <- sample_data(samp_df)
+class(SAMP)
+
+#### Format taxonomy ####
+
+# Convert taxon strings to a table with separate taxa rank columns
+tax_mat <- tax %>% select(-Confidence)%>%
+  separate(col=Taxon, sep="; "
+           , into = c("Domain","Phylum","Class","Order","Family","Genus","Species")) %>%
+  as.matrix() # Saving as a matrix
+# Save everything except feature IDs 
+tax_mat <- tax_mat[,-1]
+# Make sampleids the rownames
+rownames(tax_mat) <- tax$`Feature ID`
+# Make taxa table
+TAX <- tax_table(tax_mat)
+class(TAX)
+
+#### Create phyloseq object ####
+anemia <- phyloseq(OTU, SAMP, TAX, phylotree)
+
+#### Filter out "Missing: not collected" for health status ####
+anemia_filt <- subset_samples(anemia_rare, anemia != "Missing: Not collected")
+
+
+#### Rarefy samples ####
+
+#To view rarefaction curve
+rarecurve(t(as.data.frame(otu_table(anemia_filt))), cex=0.1)
+#Alpha rarefaction
+#Need to set rngseed to the same number each time to reproduce this exact analysis
+anemia_rare <- rarefy_even_depth(anemia_filt, rngseed = 1, sample.size = 20142)
+
+
+##### Saving for further analysis ####
+save(anemia, file="anemia.RData")
+save(anemia_rare, file="anemia_rare.RData")
