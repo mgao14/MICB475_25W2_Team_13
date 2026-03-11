@@ -36,6 +36,8 @@ Unweighted Unifrac
 Google Drive Link: https://drive.google.com/drive/folders/1EeLoGM7sIXful7VCXSwWhvNU8IJ5GJY_?usp=sharing
 - We tried prevalence threshold of 0.5, 0.6, and 0.7
 
+<img width="1199" height="306" alt="Screenshot 2026-03-11 at 4 25 49 PM" src="https://github.com/user-attachments/assets/9e6c16b5-766f-4c29-821e-5e0ddd75f951" />
+
 **Aim 4: PICRUSt**
 - Warnings from the server:
 - Warning: There was only one file for the function: EC
