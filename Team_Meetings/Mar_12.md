@@ -1,22 +1,25 @@
 Update: Plot drafts generated
 
-Aim 1: 
-Alpha diversity: Shannon
+**Aim 1: Diversity Metrics**
+
+1. Alpha diversity: Shannon
 
 <img width="510" height="672" alt="Screenshot 2026-03-10 at 10 16 57 PM" src="https://github.com/user-attachments/assets/0fe2dc44-6dea-4502-af1c-3dc7c5f6da61" />
 
 <img width="664" height="510" alt="Screenshot 2026-03-10 at 10 17 13 PM" src="https://github.com/user-attachments/assets/b54d6ffb-136a-4197-b712-29f308792a48" />
 
 P-adj values for Shannon Diversity:
-  Healthy          p adj
-MNP-FeSO4   0.0753995
-None-FeSO4  0.2091823
-None-MNP      0.8010462
 
-Anemic            p adj
-MNP-FeSO4   0.9439633
-None-FeSO4  0.9987895
-None-MNP   0.6749216
+Healthy:
+- MNP-FeSO4 = 0.0753995
+- None-FeSO4 = 0.2091823
+- None-MNP = 0.8010462
+
+Anemic: 
+- MNP-FeSO4 = 0.9439633
+- None-FeSO4 = 0.9987895
+- None-MNP = 0.6749216
+
 
 Beta diversity: Bray-Curtis
 
@@ -26,7 +29,7 @@ Beta diversity: Unweighted Unifrac
 
 <img width="733" height="837" alt="Screenshot 2026-03-10 at 10 18 14 PM" src="https://github.com/user-attachments/assets/32824514-d804-4b17-aca1-ba84af5aeb08" />
 
-PICRUSt 
+**Aim 4: PICRUSt**
 - Warnings from the server:
 - Warning: There was only one file for the function: EC
 - Maybe that's fine if you used custom traits or there were no sequences matching one of the domains.
