@@ -36,6 +36,11 @@ Unweighted Unifrac
 Google Drive Link: https://drive.google.com/drive/folders/1EeLoGM7sIXful7VCXSwWhvNU8IJ5GJY_?usp=sharing
 - We tried prevalence threshold of 0.5, 0.6, and 0.7
 
+Core Microbiome Update/Questions:
+- Very little ASVs after applying the threshold of 0.01 abundance and 0.7 prevalence. Also did 0.5 and 0.6 prevalence.
+- Which prevalence threshold should we keep? Do we want to relax the threshold even more?
+- Which bar plots are meaningful?
+
 <img width="1199" height="306" alt="Screenshot 2026-03-11 at 4 25 49 PM" src="https://github.com/user-attachments/assets/9e6c16b5-766f-4c29-821e-5e0ddd75f951" />
 
 **Aim 4: PICRUSt**
