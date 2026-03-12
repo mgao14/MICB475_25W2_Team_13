@@ -54,6 +54,7 @@ Core Microbiome Update/Questions:
 <img width="1199" height="306" alt="Screenshot 2026-03-11 at 4 25 49 PM" src="https://github.com/user-attachments/assets/9e6c16b5-766f-4c29-821e-5e0ddd75f951" />
 
 **AIM 3: DESeq2**
+
 All 6 month infants (both anemic and healthy):
 <img width="2400" height="1800" alt="vol_plot_MNP_None" src="https://github.com/user-attachments/assets/6373cf2f-b32f-4f6b-a006-f9481ef4cf13" />
 <img width="2400" height="1800" alt="vol_plot_FeSO4_None" src="https://github.com/user-attachments/assets/b7176670-911b-4393-bf5a-0bdb177e5541" />
@@ -63,6 +64,7 @@ Anemic 6-month infants only:
 <img width="2400" height="1800" alt="vol_plot_MNP_None_ANEMIC" src="https://github.com/user-attachments/assets/a00afd10-edb3-4d39-b29c-62abc72078a7" />
 <img width="2400" height="1800" alt="vol_plot_FeSO4_None_ANEMIC" src="https://github.com/user-attachments/assets/10a76f63-2525-444c-8a14-eaf6fb67db78" />
 <img width="2400" height="1800" alt="vol_plot_MNP_FeSO4_ANEMIC" src="https://github.com/user-attachments/assets/899ced3d-5c2b-4b69-9227-c03265e312ad" />
+
 
 
 
