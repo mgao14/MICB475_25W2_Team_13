@@ -27,9 +27,19 @@ Bray-Curtis
 
 <img width="715" height="708" alt="Screenshot 2026-03-10 at 10 17 49 PM" src="https://github.com/user-attachments/assets/6f569f5c-9b13-46d7-b6ea-ff76250ae405" />
 
+PERMANOVA p-value: Pr(>F)
+- supplement = 0.517
+- anemia = 0.190
+- supplement:anemia = 0.589
+
 Unweighted Unifrac
 
 <img width="733" height="837" alt="Screenshot 2026-03-10 at 10 18 14 PM" src="https://github.com/user-attachments/assets/32824514-d804-4b17-aca1-ba84af5aeb08" />
+
+PERMANOVA p-value Pr(>F)
+- supplement = 0.844
+- anemia = 0.933
+- supplement:anemia = 0.145
 
 **Aim 2: Core Microbiome**
 
