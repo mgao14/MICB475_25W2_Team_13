@@ -56,9 +56,8 @@ Core Microbiome Update/Questions:
 **AIM 3: DESeq2**
 All 6 month infants (both anemic and healthy):
 <img width="2400" height="1800" alt="vol_plot_MNP_None" src="https://github.com/user-attachments/assets/6373cf2f-b32f-4f6b-a006-f9481ef4cf13" />
-<img width="2400" height="1800" alt="vol_plot_MNP_FeSO4" src="https://github.com/user-attachments/assets/b3ec49d2-03d4-4430-a0f1-09fbd1ae27bc" />
 <img width="2400" height="1800" alt="vol_plot_FeSO4_None" src="https://github.com/user-attachments/assets/b7176670-911b-4393-bf5a-0bdb177e5541" />
-
+<img width="2400" height="1800" alt="vol_plot_MNP_FeSO4" src="https://github.com/user-attachments/assets/b3ec49d2-03d4-4430-a0f1-09fbd1ae27bc" />
 
 **Aim 4: PICRUSt**
 - Warnings from the server:
