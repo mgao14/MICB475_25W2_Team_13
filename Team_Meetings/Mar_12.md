@@ -50,10 +50,14 @@ Core Microbiome Update/Questions:
 - Warning: There was only one file for the function: KO
 - Maybe that's fine if you used custom traits or there were no sequences matching one of the domains.
 - based on the output files, seems like there’s only bacterial data, should not be a problem
-
+- which functional database should we use? 
+  - pathway/EC/KO
+  - Aim 4: Predict microbial metabolic pathways to evaluate changes in community functional potential across iron supplementation and anemia status.
+  - pathway is specific to metabolism but should we keep it broader?
 
 **Questions / problems encountered**
 - Only has 2 data points for anemia infants taking FeSO4 in 6 month subset, not enough to create an ellipse for beta diversity
 - How to annotate statistical test results on graphs (geom_signif didn’t work)?
+
 
 
