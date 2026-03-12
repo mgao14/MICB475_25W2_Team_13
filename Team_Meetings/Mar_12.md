@@ -1,4 +1,4 @@
-Update: Plot drafts generated
+### Update: Plot drafts generated
 
 **Aim 1: Diversity Metrics**
 
@@ -83,6 +83,34 @@ Anemic 6-month infants only:
 **Questions / problems encountered**
 - Only has 2 data points for anemia infants taking FeSO4 in 6 month subset, not enough to create an ellipse for beta diversity
 - How to annotate statistical test results on graphs (geom_signif didn’t work)?
+
+### Meeting minutes
+- Core microbiome: Can try 0.3, but otherwise stick with 0.5
+  - Choose what we think is most biologically relevant
+  - No bar plots, only venn diagram 
+- Alpha/beta: leave without ellipses and mention in legend that there were not enough data to draw the ellipses 
+  - Beta diversity: facet plots for healthy & anemia group
+    - But no need to annotate significance, only need to mention in caption
+    - Unify the color of ellipses
+  - Alpha diversity: try other metrics → if see no significances at all, include only 1 metric plot in the manuscript and the rest will be in supplemental
+- ISA: look into the indicator genus (gram/negative positive + beneficial/harmful)
+- DeSeq: look into the bacteria species and see if it coincides with ISA and the Picrust
+  - Double check the significant on the code
+- PICRUST
+  - Run KO first
+  - Then run Pathway would be the best to use for broad metabolic pathways
+  - See if these match
+- For all plots:
+  - Unify colors for grouping throughout the plots
+  - Change the default background (theme_classic)
+
+### To do
+- Improve plots and keep running analysis
+- Attend figure creating workshop
+- Start to think about presentation
+
+
+
 
 
 
