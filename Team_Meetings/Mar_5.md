@@ -30,17 +30,17 @@ Suggestion: "Maybe flip this around: do iron supplements with different levels o
 
 ### Other Questions:
 - Would it be better for us to do Indicator Species Analysis for aim 2 as well?
-- - Combine indicator species analysis (shows which taxa is unique → a stable with ASV) with core microbiome (this generates a ven diagram → abundance threshold 0.01 and prevalence threshold 0.7 - if don’t see difference, need to lower threshold) 
 - We already removed ASVs with less than 5 counts in QIIME2. Is it best practice to still filter this in R, or would it be redundant?
--- Stick to 5
--- Redundancy in the script is not an issue
 - Should we prune samples with less than 100 reads?
--- No effect on samples 
 
 
 ### Meeting minutes
-1st re-wrote proposal title and question are good
-Stick to 6 months for data as it’s well rationalized
+- 1st re-wrote proposal title and question are good
+- Stick to 6 months for data as it’s well rationalized
+- Run ISA as well
+  - Combine indicator species analysis (shows which taxa is unique → a stable with ASV) with core microbiome (this generates a ven diagram → abundance threshold 0.01 and prevalence threshold 0.7 - if don’t see difference, need to lower threshold)
+-  Stick to removing ASVs with less than 5 counts, but redundancy in the script is not an issue
+-  Pruning samples with less than 100 reads? - No effect on samples 
 
 
 ### To-do (Meetings: March 12, 19, 26 and April 2, 9)
