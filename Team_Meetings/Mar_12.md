@@ -59,6 +59,13 @@ All 6 month infants (both anemic and healthy):
 <img width="2400" height="1800" alt="vol_plot_FeSO4_None" src="https://github.com/user-attachments/assets/b7176670-911b-4393-bf5a-0bdb177e5541" />
 <img width="2400" height="1800" alt="vol_plot_MNP_FeSO4" src="https://github.com/user-attachments/assets/b3ec49d2-03d4-4430-a0f1-09fbd1ae27bc" />
 
+Anemic 6-month infants only:
+<img width="2400" height="1800" alt="vol_plot_MNP_None_ANEMIC" src="https://github.com/user-attachments/assets/a00afd10-edb3-4d39-b29c-62abc72078a7" />
+<img width="2400" height="1800" alt="vol_plot_FeSO4_None_ANEMIC" src="https://github.com/user-attachments/assets/10a76f63-2525-444c-8a14-eaf6fb67db78" />
+<img width="2400" height="1800" alt="vol_plot_MNP_FeSO4_ANEMIC" src="https://github.com/user-attachments/assets/899ced3d-5c2b-4b69-9227-c03265e312ad" />
+
+
+
 **Aim 4: PICRUSt**
 - Warnings from the server:
 - Warning: There was only one file for the function: EC
