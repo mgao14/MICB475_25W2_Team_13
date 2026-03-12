@@ -53,6 +53,12 @@ Core Microbiome Update/Questions:
 
 <img width="1199" height="306" alt="Screenshot 2026-03-11 at 4 25 49 PM" src="https://github.com/user-attachments/assets/9e6c16b5-766f-4c29-821e-5e0ddd75f951" />
 
+**AIM 3: DESeq2**
+(not stratified by anemia status)
+<img width="1443" height="1949" alt="vol_plot_MNP_None" src="https://github.com/user-attachments/assets/75f47e62-d29f-431a-abce-411b343e9d21" />
+<img width="1443" height="1949" alt="vol_plot_MNP_FeSO4" src="https://github.com/user-attachments/assets/94698c6f-36ee-493c-b837-2a82f4432b2a" />
+<img width="1443" height="1949" alt="vol_plot_FeSO4_None" src="https://github.com/user-attachments/assets/102cd7ea-dfc8-4c44-8475-9a6ecae67437" />
+
 **Aim 4: PICRUSt**
 - Warnings from the server:
 - Warning: There was only one file for the function: EC
