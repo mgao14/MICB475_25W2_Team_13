@@ -54,10 +54,11 @@ Core Microbiome Update/Questions:
 <img width="1199" height="306" alt="Screenshot 2026-03-11 at 4 25 49 PM" src="https://github.com/user-attachments/assets/9e6c16b5-766f-4c29-821e-5e0ddd75f951" />
 
 **AIM 3: DESeq2**
-(not stratified by anemia status)
-<img width="1443" height="1949" alt="vol_plot_MNP_None" src="https://github.com/user-attachments/assets/75f47e62-d29f-431a-abce-411b343e9d21" />
-<img width="1443" height="1949" alt="vol_plot_MNP_FeSO4" src="https://github.com/user-attachments/assets/94698c6f-36ee-493c-b837-2a82f4432b2a" />
-<img width="1443" height="1949" alt="vol_plot_FeSO4_None" src="https://github.com/user-attachments/assets/102cd7ea-dfc8-4c44-8475-9a6ecae67437" />
+All 6 month infants (both anemic and healthy):
+<img width="2400" height="1800" alt="vol_plot_MNP_None" src="https://github.com/user-attachments/assets/6373cf2f-b32f-4f6b-a006-f9481ef4cf13" />
+<img width="2400" height="1800" alt="vol_plot_MNP_FeSO4" src="https://github.com/user-attachments/assets/b3ec49d2-03d4-4430-a0f1-09fbd1ae27bc" />
+<img width="2400" height="1800" alt="vol_plot_FeSO4_None" src="https://github.com/user-attachments/assets/b7176670-911b-4393-bf5a-0bdb177e5541" />
+
 
 **Aim 4: PICRUSt**
 - Warnings from the server:
