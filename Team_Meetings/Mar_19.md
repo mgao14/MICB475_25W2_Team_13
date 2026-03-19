@@ -35,7 +35,7 @@
   - No ellipse for anemic infants taking FeSO4 but can see the points are still within the range of the other two ellipses?
 
 
-**Aim 2:**
+### Aim 2:
 
 Set Core Microbiome Threshold to Abundance = 0.01 and Prevalence 0.3
 <img width="1015" height="389" alt="Screenshot 2026-03-19 at 1 27 33 PM" src="https://github.com/user-attachments/assets/d91f2ff2-585e-4dba-849e-a3ccc2594fa1" />
@@ -61,7 +61,7 @@ Core Microbiome Questions:
 - Since our hypothesis focuses on comparing bacteria that are unique to FeSO₄ and MNP supplementation, would it be more meaningful to highlight only the taxa exclusive to FeSO₄ and MNP rather than listing all of the taxonomic groups represented by the ASVs in the Venn diagram?
   - Hypothesis: See greater amounts of pathogenic bacteria and lower commensal bacteria with FeSO4 supplementation compared to MNP.
 
-ISA analysis (discuss only if time permits)
+**ISA analysis (discuss only if time permits)**
 - All five belong to the phylum Bacillota (formerly Firmicutes) and to the classes Bacilli or Clostridia. Members of these groups are often anaerobic or facultatively anaerobic gut residents that can metabolize carbohydrates, produce short‑chain fatty acids, and modulate host immunity.
 - Shifts toward Finegoldia/Anaerococcus under metal stress may reflect a community moving toward proteolytic, opportunistic taxa, whereas the loss of Leuconostoc under MNP could signal disruption of lactic‑acid‑producing, carbohydrate‑fermenting guilds.
 - Treatment‑specific patterns
@@ -70,7 +70,7 @@ ISA analysis (discuss only if time permits)
 3. Finegoldia and Anaerococcus occur in both FeSO₄ and MNP but not in the control, implying they are general responders to metal‑related stress (either ionic Fe²⁺ or particulate MNP). Their relatively high indicator values (≈0.52‑0.56) and low p‑values (especially Finegoldia at 0.01) strengthen this interpretation.
 
 
-**Aim 3:**
+### Aim 3:
 DESeq2 Analysis Plots: https://drive.google.com/file/d/1OKD3LslDeTyhQB1zGfiiP8PxdOmCuirZ/view?usp=sharing
 - generated the following volcano and bar plots:
   - FeSO4 vs None
@@ -80,7 +80,7 @@ DESeq2 Analysis Plots: https://drive.google.com/file/d/1OKD3LslDeTyhQB1zGfiiP8Px
 - Last meeting's point on significance: I think even though it meets the log2foldchange threshold, it didn't meet the significance threshold (padj < 0.01) that was set, so it remained blue (non-significant)
 
 
-**Aim 4:**
+### Aim 4:
 - daa_method: LinDA
 - threeway results: 
 1. Normal
