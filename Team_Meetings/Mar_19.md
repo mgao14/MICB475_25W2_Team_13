@@ -20,6 +20,10 @@ Beta diversity: Unweighted Unifrac
 
 <img width="603" height="683" alt="Screenshot 2026-03-18 at 12 03 13 AM" src="https://github.com/user-attachments/assets/bedfb0ad-e187-4d4e-9a72-9acbd9669f8b" />
 
+
+**Aim 3:**
+DESeq2 Analysis Plots: https://drive.google.com/file/d/1V8rq8vCIUJyfbmQhtRzydvu5ot1KK9FY/view?usp=sharing
+
 **Aim 4:**
 - daa_method: LinDA
 - threeway results: 
