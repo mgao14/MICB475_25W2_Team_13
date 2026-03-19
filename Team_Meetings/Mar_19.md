@@ -63,6 +63,13 @@ Core Microbiome Questions:
 
 **Aim 3:**
 DESeq2 Analysis Plots: https://drive.google.com/file/d/1OKD3LslDeTyhQB1zGfiiP8PxdOmCuirZ/view?usp=sharing
+- generated the following volcano and bar plots:
+  - FeSO4 vs None
+  - MNP vs None
+  - MNP vs FeSO4
+  - Each of the above is done for all infants, anemic infants, non-anemic infants
+- Last meeting's point on significance: I think even though it meets the log2foldchange threshold, it didn't meet the significance threshold (padj < 0.01) that was set, so it remained blue (non-significant)
+
 
 **Aim 4:**
 - daa_method: LinDA
