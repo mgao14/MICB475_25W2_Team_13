@@ -3,22 +3,62 @@ Updated plots / analysis
 **Aim 1:**
 
 Alpha diversity: Shannon
-- Further tested the interaction between supplement and health status, found no significant difference 
-- Also ran Kruskal-Wallis for Faith PD for both health and anemic infants, found no significant difference
+- Further tested the interaction between supplement and health status, found no significant difference - not able to include in graph, worth doing?
+- Ran Kruskal-Wallis for Faith PD for both health and anemic infants, found no significant difference
 - Healthy, Faith PD by supplement: p-value = 0.647
 - Anemic, Faith PD by supplement: p-value = 0.4196
+<img width="999" height="573" alt="Screenshot 2026-03-19 at 1 25 45 PM" src="https://github.com/user-attachments/assets/318c976d-f38c-4807-8ffe-8c2dba3fe04a" />
+Interpretation:
+- Alpha diversity of gut microbiome did not differ significantly among infants taking different iron supplement for both healthy and anemic groups
+- 6-month infants receiving different supplements had similar levels of microbial diversity within their gut microbiomes if considering richness & abundance of microbes in the community. 
 
-<img width="537" height="607" alt="Screenshot 2026-03-18 at 12 02 26 AM" src="https://github.com/user-attachments/assets/11e361c0-55a4-45c5-a063-ffb5164cb1a3" />
 
 
-Beta diversity: Bray Curtis
 
+Beta diversity:
+- Should we do weighted unifrac to replace bray curtis & unweighted unifrac? 
+
+Bray Curtis
 <img width="573" height="663" alt="Screenshot 2026-03-18 at 12 02 59 AM" src="https://github.com/user-attachments/assets/e6b09354-e828-43b1-aa10-af1a24616717" />
 
-
-Beta diversity: Unweighted Unifrac
-
+Unweighted Unifrac
 <img width="603" height="683" alt="Screenshot 2026-03-18 at 12 03 13 AM" src="https://github.com/user-attachments/assets/bedfb0ad-e187-4d4e-9a72-9acbd9669f8b" />
+
+Confirm understanding:
+- Points spread out, ellipses relatively large
+  - High variation / dissimilarity among samples within a supplement group 
+- No distinct clustering of points by supplement, strong overlap of ellipses
+  - Microbial communities of different iron supplements are likely similar in either anemic or healthy infants (no clear separation).
+- Confirming no statistical significance for supplement, health status, and interaction
+  - Community composition of gut microbiome does not differ significantly among all comparison groups, considering both richness and abundance / richness and phylogenetic distance
+- No ellipse for anemic infants taking FeSO4 but can see the points are still within the range of the other two ellipses?
+
+
+**Aim 2:**
+
+Set Core Microbiome Threshold to Abundance = 0.01 and Prevalence 0.3
+<img width="1015" height="389" alt="Screenshot 2026-03-19 at 1 27 33 PM" src="https://github.com/user-attachments/assets/d91f2ff2-585e-4dba-849e-a3ccc2594fa1" />
+- Distribution  of core  microbiome  in  healthy &  anemic  infants  classified  by  supplement group
+
+<img width="989" height="677" alt="Screenshot 2026-03-19 at 1 27 56 PM" src="https://github.com/user-attachments/assets/b3ffdff3-2c30-42d9-9120-f09d6909e2a5" />
+
+List of Unique Taxa Across Supplement Groups:
+- Anemic Infants:
+  - Unique to MNP: Balutia
+  - Unique to FeSO4: 
+    - Bacteroides
+    - Thomasclavelia
+    - [Clostridium]_innocuum_group
+    - Eubacterium
+- Normal Infants:
+  - Unique to MNP: NA
+  - Unique to FeSO4: Parolsenella
+
+Core Microbiome Questions:
+- Confirm Understanding: The core microbiome shows shared ASVs rather than shared taxonomic groups, correct? Would that explain why we observe repeated taxonomic groups within the same and different supplement groups?
+- Why is Streptococcus shared between the MNP and no supplement groups when the prevalence threshold is 0.5, but appears only in the no-supplement group when the threshold is lowered to 0.3 for the anemic infant group?
+- Since our hypothesis focuses on comparing bacteria that are unique to FeSO₄ and MNP supplementation, would it be more meaningful to highlight only the taxa exclusive to FeSO₄ and MNP rather than listing all of the taxonomic groups represented by the ASVs in the Venn diagram?
+  - Hypothesis: See greater amounts of pathogenic bacteria and lower commensal bacteria with FeSO4 supplementation compared to MNP.
 
 
 **Aim 3:**
