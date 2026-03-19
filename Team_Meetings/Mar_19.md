@@ -22,23 +22,35 @@ Beta diversity: Unweighted Unifrac
 
 **Aim 4:**
 - daa_method: LinDA
-- could not do three way comparison, I did pairwise from none vs supplement split by anemia state
-results: 
+- threeway results: 
+1. Normal
+  - The filtered data has  46  samples and  6881  features will be tested
+  - No significant pathways found
+2. Anemic
+  - The filtered data has  46  samples and  6661  features will be tested
+  - KEGG annotation complete: 2261 successful, 6 not found, 0 errors
+- from individual pairwise comparisons
 1. normal, none vs MNP
-- The filtered data has  36  samples and  6303  features will be tested
-- No significant pathways found
+  - The filtered data has  36  samples and  6303  features will be tested
+  - No significant pathways found
 2. normal, none vs FeSO4
-- The filtered data has  27  samples and  6749  features will be tested
-- INFO: KEGG annotation complete: 106 successful, 0 not found, 0 errors
-- Filter to p_adjust >= 0.05, abs(log2_fold_change) > 2, 9 remaining significant pathways
+  - The filtered data has  27  samples and  6749  features will be tested
+  - KEGG annotation complete: 106 successful, 0 not found, 0 errors
+  - Filter to p_adjust >= 0.05, abs(log2_fold_change) > 2, 9 remaining significant pathways
 3. anemic,  none vs MNP
-- The filtered data has  44  samples and  6657  features will be tested
-- KEGG annotation complete: 1401 successful, 4 not found, 0 errors
-- Filter to p_adjust >= 0.05, abs(log2_fold_change) > 2, 2 remaining significant pathways
+  - The filtered data has  44  samples and  6657  features will be tested
+  - KEGG annotation complete: 1401 successful, 4 not found, 0 errors
+  - Filter to p_adjust >= 0.05, abs(log2_fold_change) > 2, 2 remaining significant pathways
 4. anemic, none vs FeSO4
-- The filtered data has  25  samples and  6519  features will be tested
-- KEGG annotation complete: 1 successful, 0 not found, 0 errors
-- Filter to p_adjust >= 0.05, abs(log2_fold_change) > 2, 1 remaining significant pathway
+  - The filtered data has  25  samples and  6519  features will be tested
+  - KEGG annotation complete: 1 successful, 0 not found, 0 errors
+  - Filter to p_adjust >= 0.05, abs(log2_fold_change) > 2, 1 remaining significant pathway
+
+Bar Plots
+<img width="793" height="662" alt="normal_FeSO4" src="https://github.com/user-attachments/assets/ec86bc0c-f086-421e-97ba-44ea5e669886" />
+<img width="793" height="662" alt="anemic_MNP" src="https://github.com/user-attachments/assets/6c8314d7-3537-43a9-825c-94e957884f8d" />
+<img width="1000" height="662" alt="anemic_FeSO4" src="https://github.com/user-attachments/assets/89f1c52e-8a8e-4e0a-b3e8-0a725491c3af" />
+
 
 Questions
 
