@@ -62,6 +62,14 @@ Core Microbiome Questions:
 - Since our hypothesis focuses on comparing bacteria that are unique to FeSO₄ and MNP supplementation, would it be more meaningful to highlight only the taxa exclusive to FeSO₄ and MNP rather than listing all of the taxonomic groups represented by the ASVs in the Venn diagram?
   - Hypothesis: See greater amounts of pathogenic bacteria and lower commensal bacteria with FeSO4 supplementation compared to MNP.
 
+ISA analysis (discuss only if time permits)
+- All five belong to the phylum Bacillota (formerly Firmicutes) and to the classes Bacilli or Clostridia. Members of these groups are often anaerobic or facultatively anaerobic gut residents that can metabolize carbohydrates, produce short‑chain fatty acids, and modulate host immunity.
+- Shifts toward Finegoldia/Anaerococcus under metal stress may reflect a community moving toward proteolytic, opportunistic taxa, whereas the loss of Leuconostoc under MNP could signal disruption of lactic‑acid‑producing, carbohydrate‑fermenting guilds.
+- Treatment‑specific patterns
+1. Limosilactobacillus and Faecalimonas appear only when the MNP treatment is present or in the untreated control, but never under FeSO₄. This suggests they may thrive in the baseline community or in response to nanoparticle exposure, but are suppressed by excess iron.
+2. Leuconostoc is detected in FeSO₄ and control samples but absent under MNP, indicating a potential indicator of iron‑rich conditions or a sensitivity to nanoparticle stress.
+3. Finegoldia and Anaerococcus occur in both FeSO₄ and MNP but not in the control, implying they are general responders to metal‑related stress (either ionic Fe²⁺ or particulate MNP). Their relatively high indicator values (≈0.52‑0.56) and low p‑values (especially Finegoldia at 0.01) strengthen this interpretation.
+
 
 **Aim 3:**
 DESeq2 Analysis Plots: https://drive.google.com/file/d/1OKD3LslDeTyhQB1zGfiiP8PxdOmCuirZ/view?usp=sharing
