@@ -2,38 +2,37 @@
 2. Start thinking about figures? 
 
 
-**Aim 1:**
+### Aim 1:
 
-Alpha diversity: Shannon
+**Alpha diversity: Shannon**
 - Further tested the interaction between supplement and health status, found no significant difference - not able to include in graph, worth doing?
 - Ran Kruskal-Wallis for Faith PD for both health and anemic infants, found no significant difference
-- Healthy, Faith PD by supplement: p-value = 0.647
-- Anemic, Faith PD by supplement: p-value = 0.4196
+  - Healthy, Faith PD by supplement: p-value = 0.647
+  - Anemic, Faith PD by supplement: p-value = 0.4196
 <img width="999" height="573" alt="Screenshot 2026-03-19 at 1 25 45 PM" src="https://github.com/user-attachments/assets/318c976d-f38c-4807-8ffe-8c2dba3fe04a" />
-Interpretation:
-- Alpha diversity of gut microbiome did not differ significantly among infants taking different iron supplement for both healthy and anemic groups
-- 6-month infants receiving different supplements had similar levels of microbial diversity within their gut microbiomes if considering richness & abundance of microbes in the community. 
+
+- Interpretation:
+  - Alpha diversity of gut microbiome did not differ significantly among infants taking different iron supplement for both healthy and anemic groups
+  - 6-month infants receiving different supplements had similar levels of microbial diversity within their gut microbiomes if considering richness & abundance of microbes in the community. 
 
 
-
-
-Beta diversity:
+**Beta diversity:**
 - Should we do weighted unifrac to replace bray curtis & unweighted unifrac? 
 
-Bray Curtis
+- Bray Curtis
 <img width="573" height="663" alt="Screenshot 2026-03-18 at 12 02 59 AM" src="https://github.com/user-attachments/assets/e6b09354-e828-43b1-aa10-af1a24616717" />
 
-Unweighted Unifrac
+- Unweighted Unifrac
 <img width="603" height="683" alt="Screenshot 2026-03-18 at 12 03 13 AM" src="https://github.com/user-attachments/assets/bedfb0ad-e187-4d4e-9a72-9acbd9669f8b" />
 
-Confirm understanding:
-- Points spread out, ellipses relatively large
-  - High variation / dissimilarity among samples within a supplement group 
-- No distinct clustering of points by supplement, strong overlap of ellipses
-  - Microbial communities of different iron supplements are likely similar in either anemic or healthy infants (no clear separation).
-- Confirming no statistical significance for supplement, health status, and interaction
-  - Community composition of gut microbiome does not differ significantly among all comparison groups, considering both richness and abundance / richness and phylogenetic distance
-- No ellipse for anemic infants taking FeSO4 but can see the points are still within the range of the other two ellipses?
+- Confirm understanding:
+  - Points spread out, ellipses relatively large
+    - High variation / dissimilarity among samples within a supplement group 
+  - No distinct clustering of points by supplement, strong overlap of ellipses
+    - Microbial communities of different iron supplements are likely similar in either anemic or healthy infants (no clear separation).
+  - Confirming no statistical significance for supplement, health status, and interaction
+    - Community composition of gut microbiome does not differ significantly among all comparison groups, considering both richness and abundance / richness and phylogenetic distance
+  - No ellipse for anemic infants taking FeSO4 but can see the points are still within the range of the other two ellipses?
 
 
 **Aim 2:**
@@ -113,16 +112,20 @@ Bar Plots
 <img width="1000" height="662" alt="anemic_FeSO4" src="https://github.com/user-attachments/assets/89f1c52e-8a8e-4e0a-b3e8-0a725491c3af" />
 
 
-Questions
+### Meeting Minutes
+- Aim 1: choose a different theme to separate the panels
+  - Do weighted-unifrac for beta diversity and only include this in the presentation
+  - For alpha diversity: when analyzing, go deeper than saying the measure has no significant difference - instead, talk about what the measure implies (similar abundance / richness) 
+- Aim 2: getting more resolution on genus to species level
+  - NR or NT database blast against ur code from ASV
+- Aim 3: 
+  - Bar plot switch to vertical and get rid of colour/expression legend - double check after 
 
 
-
-
-Meeting Minutes
-
-
-
-
-To do
+### To do
+- Presentation draft done before 4.02 meeting
+  - Think of analysis and interpretation of figures
+  - Have all data ready at least by 3.26 meeting
+- Draft manuscript due 4.19
 
 
