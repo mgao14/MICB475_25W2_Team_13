@@ -1,4 +1,6 @@
-Updated plots / analysis
+1. Updated plots / analysis
+2. Start thinking about figures? 
+
 
 **Aim 1:**
 
