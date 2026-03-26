@@ -14,6 +14,7 @@ Beta diversity: Weighted Unifrac
   - supplement:anemia  0.133
 
 **Aim 2**
+
 Indicator species in **anemic** infants. Below are the ASVs that passed the significance threshold, together with a short description of the genus (or species, when it is known).
 <img width="641" height="587" alt="Screenshot 2026-03-25 at 8 35 42 PM" src="https://github.com/user-attachments/assets/43053b63-2705-420a-9c09-6975ac45d70c" />
 - Iron‑driven opportunists: Enterobacter, Escherichia‑Shigella, and Clostridium spp. are all high‑affinity iron scavengers. Their simultaneous rise in both FeSO₄ and MNP groups strongly supports the hypothesis that any form of iron (ionic or particulate) creates a niche for fast‑growing, potentially pathogenic bacteria.
