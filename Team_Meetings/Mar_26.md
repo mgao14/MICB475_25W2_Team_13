@@ -26,6 +26,7 @@ Indicator species in healthy infants. The second table (healthy cohort) contains
 - Different taxa are favoured by FeSO4 vs MNP → Soluble iron (FeSO4) tends to keep Bifidobacterium and Lactobacillus abundant, whereas
 
 **Aim 3**
+
 Healthy: 
 <img width="3000" height="1800" alt="bar_FeSO4_vs_None_NONANEMIC" src="https://github.com/user-attachments/assets/b85b09bb-2f0f-4515-9e34-841f54ad89cb" />
 <img width="3000" height="1800" alt="bar_MNP_vs_None_NONANEMIC" src="https://github.com/user-attachments/assets/5e71fdbf-c3de-49b3-b028-b1ef876d830d" />
