@@ -15,14 +15,12 @@ Beta diversity: Weighted Unifrac
 
 **Aim 2**
 
-Indicator species in **anemic** infants. Below are the ASVs that passed the significance threshold, together with a short description of the genus (or species, when it is known).
-<img width="641" height="587" alt="Screenshot 2026-03-25 at 8 35 42 PM" src="https://github.com/user-attachments/assets/43053b63-2705-420a-9c09-6975ac45d70c" />
+Indicator species in **anemic** infants.
 - Iron‑driven opportunists: Enterobacter, Escherichia‑Shigella, and Clostridium spp. are all high‑affinity iron scavengers. Their simultaneous rise in both FeSO₄ and MNP groups strongly supports the hypothesis that any form of iron (ionic or particulate) creates a niche for fast‑growing, potentially pathogenic bacteria.
 - Loss of carbohydrate‑fermenting commensals: Faecalimonas (and, to a lesser extent, the Limosilactobacillus that appears only with MNP) are the taxa that survive when no supplement is given. Their disappearance in iron‑treated infants suggests a shift away from SCFA‑producing, gut‑protective bacteria.
 - Potential biomarkers: The ASVs with the highest indicator values (Enterobacter – IndVal 0.91, Staphylococcus – 0.78) could be used as early microbiological markers of iron‑induced dysbiosis in infants at risk of anemia.
 
-Indicator species in healthy infants. The second table (healthy cohort) contains a larger number of significant rows (the “index” column varies from 1 to 6, indicating that some taxa are strongly specific to a single treatment group)
-<img width="621" height="618" alt="Screenshot 2026-03-25 at 8 37 08 PM" src="https://github.com/user-attachments/assets/904226fd-5964-4a08-a6bd-09315c788e07" />
+Indicator species in **healthy** infants. 
 - Strong presence of Bifidobacterium, Lactobacillus, Faecalibacterium, Roseburia, Akkermansia → These are the classic health-associated, SCFA-producing, mucin-interacting taxa that keep the gut environment acidic, limit pathogen expansion and support immune development.
 - Different taxa are favoured by FeSO4 vs MNP → Soluble iron (FeSO4) tends to keep Bifidobacterium and Lactobacillus abundant, whereas
 
