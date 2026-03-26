@@ -57,7 +57,7 @@ Healthy:
 - MNP vs None: 
   - Upregulated: Bifidobacterium, Ruminococcus_gauvereauii
   - Downregulated: Bacteroides, 
-MNP vs FeSO4: 
+- MNP vs FeSO4: 
   - Upregulated in MNP: Bifidobacterium (and .1), Faecalibacterium, Bacteriodes.1, Megasphaera
   - Upregulated in FeSO4: Bacteroides
 Bifidobacterium is downregulated when FeSO4 is consumed, upregulated with MNP. This is a crucial, predominant group in a healthy infant gut
