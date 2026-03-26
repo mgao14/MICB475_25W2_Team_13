@@ -27,22 +27,6 @@ Indicator species in healthy infants. The second table (healthy cohort) contains
 
 **Aim 3**
 
-Healthy: 
-<img width="3000" height="1800" alt="bar_FeSO4_vs_None_NONANEMIC" src="https://github.com/user-attachments/assets/b85b09bb-2f0f-4515-9e34-841f54ad89cb" />
-<img width="3000" height="1800" alt="bar_MNP_vs_None_NONANEMIC" src="https://github.com/user-attachments/assets/5e71fdbf-c3de-49b3-b028-b1ef876d830d" />
-<img width="3000" height="1800" alt="bar_MNP_vs_FeSO4_NONANEMIC" src="https://github.com/user-attachments/assets/2edc61ea-76b1-460a-83ff-35ec992754b4" />
-- FeSO4 vs None: 
-  - Upregulated: Ruminococcus_gauvereauii
-  - Downregulated: Limosilactobacillus. 1, __Dorea, __Faecalibacterium, Agathobacter, Ligilactobacillus, Bacteroides, Limosilactobacillus, Anaerobutyricum.1, Other, Eubacterium, Coprococcus, Agathobaculum, Blautia, Erysipelotrichaceae_UCG-003, Peptostreptococcus, Anaerobutyricum, Bifidobacterium
-- MNP vs None: 
-  - Upregulated: Bifidobacterium, Ruminococcus_gauvereauii
-  - Downregulated: Bacteroides, 
-MNP vs FeSO4: 
-  - Upregulated in MNP: Bifidobacterium (and .1), Faecalibacterium, Bacteriodes.1, Megasphaera
-  - Upregulated in FeSO4: Bacteroides
-Bifidobacterium is downregulated when FeSO4 is consumed, upregulated with MNP. This is a crucial, predominant group in a healthy infant gut
-
-
 Anemic: 
 <img width="3000" height="1800" alt="bar_MNP_vs_None_ANEMIC" src="https://github.com/user-attachments/assets/e9ed810b-7ea9-4378-bcf8-69f88f5e1a70" />
 <img width="3000" height="1800" alt="bar_FeSO4_vs_None_ANEMIC" src="https://github.com/user-attachments/assets/b20d15f8-0321-477c-87ce-9d9d672b3f1f" />
@@ -63,6 +47,23 @@ Anemic:
   - Increased Parolsenella is associated with metabolic disorders
 - Streptococcus = common in early-life gut but less ideal, high abundance is associated with T1D or eczema 
 
+Healthy: 
+<img width="3000" height="1800" alt="bar_FeSO4_vs_None_NONANEMIC" src="https://github.com/user-attachments/assets/b85b09bb-2f0f-4515-9e34-841f54ad89cb" />
+<img width="3000" height="1800" alt="bar_MNP_vs_None_NONANEMIC" src="https://github.com/user-attachments/assets/5e71fdbf-c3de-49b3-b028-b1ef876d830d" />
+<img width="3000" height="1800" alt="bar_MNP_vs_FeSO4_NONANEMIC" src="https://github.com/user-attachments/assets/2edc61ea-76b1-460a-83ff-35ec992754b4" />
+- FeSO4 vs None: 
+  - Upregulated: Ruminococcus_gauvereauii
+  - Downregulated: Limosilactobacillus. 1, __Dorea, __Faecalibacterium, Agathobacter, Ligilactobacillus, Bacteroides, Limosilactobacillus, Anaerobutyricum.1, Other, Eubacterium, Coprococcus, Agathobaculum, Blautia, Erysipelotrichaceae_UCG-003, Peptostreptococcus, Anaerobutyricum, Bifidobacterium
+- MNP vs None: 
+  - Upregulated: Bifidobacterium, Ruminococcus_gauvereauii
+  - Downregulated: Bacteroides, 
+MNP vs FeSO4: 
+  - Upregulated in MNP: Bifidobacterium (and .1), Faecalibacterium, Bacteriodes.1, Megasphaera
+  - Upregulated in FeSO4: Bacteroides
+Bifidobacterium is downregulated when FeSO4 is consumed, upregulated with MNP. This is a crucial, predominant group in a healthy infant gut
+
+
+Overall, I think the data aligns well with our hypothesis (MNP > FeSO4)
 
 **Aim 4**
 - Regenerated plots with DESeq2
