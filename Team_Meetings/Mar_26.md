@@ -77,5 +77,6 @@ Overall, I think the data aligns well with our hypothesis (MNP > FeSO4)
 <img width="718" height="640" alt="Screenshot 2026-03-25 at 8 39 13 PM" src="https://github.com/user-attachments/assets/9b57fe65-9de0-462a-a888-ce84bf9a5edc" />
 <img width="767" height="669" alt="Screenshot 2026-03-25 at 8 39 24 PM" src="https://github.com/user-attachments/assets/75ada0e4-4ade-4f11-9251-e178eef86bfc" />
 <img width="793" height="708" alt="Screenshot 2026-03-25 at 8 39 43 PM" src="https://github.com/user-attachments/assets/d42a5f20-78a0-4d86-9dc7-f510d16e485e" />
-<img width="957" height="783" alt="heatmap with names" src="https://github.com/user-attachments/assets/ec40a060-aaa1-4563-a139-dbc0f0a99709" />
+
 - Plot with names, some formatting issues
+<img width="957" height="783" alt="heatmap with names" src="https://github.com/user-attachments/assets/ec40a060-aaa1-4563-a139-dbc0f0a99709" />
