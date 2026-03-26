@@ -15,6 +15,10 @@ Beta diversity: Weighted Unifrac
 
 **Aim 2**
 
+Thresholds: Abundance = 0.01 and Prevalence 0.3
+<img width="710" height="274" alt="Screenshot 2026-03-26 at 3 36 07 PM" src="https://github.com/user-attachments/assets/07be84a2-0ab3-4f61-82ce-5471abfc8cda" />
+
+
 Indicator species in **anemic** infants.
 - Iron‑driven opportunists: Enterobacter, Escherichia‑Shigella, and Clostridium spp. are all high‑affinity iron scavengers. Their simultaneous rise in both FeSO₄ and MNP groups strongly supports the hypothesis that any form of iron (ionic or particulate) creates a niche for fast‑growing, potentially pathogenic bacteria.
 - Loss of carbohydrate‑fermenting commensals: Faecalimonas (and, to a lesser extent, the Limosilactobacillus that appears only with MNP) are the taxa that survive when no supplement is given. Their disappearance in iron‑treated infants suggests a shift away from SCFA‑producing, gut‑protective bacteria.
@@ -23,6 +27,7 @@ Indicator species in **anemic** infants.
 Indicator species in **healthy** infants. 
 - Strong presence of Bifidobacterium, Lactobacillus, Faecalibacterium, Roseburia, Akkermansia → These are the classic health-associated, SCFA-producing, mucin-interacting taxa that keep the gut environment acidic, limit pathogen expansion and support immune development.
 - Different taxa are favoured by FeSO4 vs MNP → Soluble iron (FeSO4) tends to keep Bifidobacterium and Lactobacillus abundant, whereas
+
 
 **Aim 3**
 
