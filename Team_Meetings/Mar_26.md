@@ -26,12 +26,41 @@ Indicator species in healthy infants. The second table (healthy cohort) contains
 - Different taxa are favoured by FeSO4 vs MNP → Soluble iron (FeSO4) tends to keep Bifidobacterium and Lactobacillus abundant, whereas
 
 **Aim 3**
+Healthy: 
 <img width="3000" height="1800" alt="bar_FeSO4_vs_None_NONANEMIC" src="https://github.com/user-attachments/assets/b85b09bb-2f0f-4515-9e34-841f54ad89cb" />
 <img width="3000" height="1800" alt="bar_MNP_vs_None_NONANEMIC" src="https://github.com/user-attachments/assets/5e71fdbf-c3de-49b3-b028-b1ef876d830d" />
 <img width="3000" height="1800" alt="bar_MNP_vs_FeSO4_NONANEMIC" src="https://github.com/user-attachments/assets/2edc61ea-76b1-460a-83ff-35ec992754b4" />
+- FeSO4 vs None: 
+  - Upregulated: Ruminococcus_gauvereauii
+  - Downregulated: Limosilactobacillus. 1, __Dorea, __Faecalibacterium, Agathobacter, Ligilactobacillus, Bacteroides, Limosilactobacillus, Anaerobutyricum.1, Other, Eubacterium, Coprococcus, Agathobaculum, Blautia, Erysipelotrichaceae_UCG-003, Peptostreptococcus, Anaerobutyricum, Bifidobacterium
+- MNP vs None: 
+  - Upregulated: Bifidobacterium, Ruminococcus_gauvereauii
+  - Downregulated: Bacteroides, 
+MNP vs FeSO4: 
+  - Upregulated in MNP: Bifidobacterium (and .1), Faecalibacterium, Bacteriodes.1, Megasphaera
+  - Upregulated in FeSO4: Bacteroides
+Bifidobacterium is downregulated when FeSO4 is consumed, upregulated with MNP. This is a crucial, predominant group in a healthy infant gut
+
+
+Anemic: 
 <img width="3000" height="1800" alt="bar_MNP_vs_None_ANEMIC" src="https://github.com/user-attachments/assets/e9ed810b-7ea9-4378-bcf8-69f88f5e1a70" />
 <img width="3000" height="1800" alt="bar_FeSO4_vs_None_ANEMIC" src="https://github.com/user-attachments/assets/b20d15f8-0321-477c-87ce-9d9d672b3f1f" />
 <img width="3000" height="1800" alt="bar_MNP_vs_FeSO4_ANEMIC" src="https://github.com/user-attachments/assets/f56cb299-51a8-4e54-a9cc-4e54c7bf646d" />
+- FeSO4 vs None: 
+  - Upregulated: Enterrococcus, Clostridium innocuum group
+  - Downregulated: Bacteriodes, Dorea, Faecalibacterium, Parolsenella, Streptococcus
+- MNP vs None: 
+  - Upregulated: Catenibacterium, Dorea, Blautia, Bacteriodes.1
+  - Downregulated: Leuconostoc, Ruminococcus_gauvereauii, Akkermansia, exitbacter, Faecalmonas, marvinbyrantia, Bacteriodes, peptostreptococcus
+- MNP vs FeSO4
+  - Upregulated in MNP: Parolsenella, Streptococcus, Bacteroides, Dorea
+  - Upregulated in FeSO4: Faecalibacterium
+- Bacteroides = first microbes to colonize the human infant gut; it is downregulated when anemic infants take FeSO4; upregulated when taking MNP
+- Dorea = appear during first year of infancy, produce SCFAs but at high abundances can cause inflammation or gut barrier changes 
+  - Downregulated for FeSO4, upegulated for MNP
+- Parolsenella = part of normal adult heatlhy gut; also seen in diverse infant gut microbiomes
+  - Increased Parolsenella is associated with metabolic disorders
+- Streptococcus = common in early-life gut but less ideal, high abundance is associated with T1D or eczema 
 
 
 **Aim 4**
