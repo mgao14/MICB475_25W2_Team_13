@@ -1,4 +1,4 @@
-**Aim 1**
+### Aim 1
 - Changed from classic to bw theme to separate panels
 - Which one is a better option, as we do want to unify the theme we use for all graphs & control the number of plots?
 - If separate the panels, should we include anemic infant plots only (also for other aims)?
@@ -13,7 +13,7 @@ Beta diversity: Weighted Unifrac
   - anemia        0.924
   - supplement:anemia  0.133
 
-**Aim 2**
+### Aim 2
 
 Thresholds: Abundance = 0.01 and Prevalence 0.3
 <img width="710" height="274" alt="Screenshot 2026-03-26 at 3 36 07 PM" src="https://github.com/user-attachments/assets/07be84a2-0ab3-4f61-82ce-5471abfc8cda" />
@@ -29,7 +29,7 @@ Indicator species in **healthy** infants.
 - Different taxa are favoured by FeSO4 vs MNP → Soluble iron (FeSO4) tends to keep Bifidobacterium and Lactobacillus abundant, whereas
 
 
-**Aim 3**
+### Aim 3
 
 Anemic: 
 <img width="3000" height="1800" alt="bar_MNP_vs_None_ANEMIC" src="https://github.com/user-attachments/assets/e9ed810b-7ea9-4378-bcf8-69f88f5e1a70" />
@@ -69,7 +69,7 @@ Bifidobacterium is downregulated when FeSO4 is consumed, upregulated with MNP. T
 
 Overall, I think the data aligns well with our hypothesis (MNP > FeSO4)
 
-**Aim 4**
+### Aim 4
 - Regenerated plots with DESeq2
 - Represented pathways by pathway class for clarity (specific names are hard to understand)
 <img width="889" height="614" alt="Screenshot 2026-03-25 at 8 38 11 PM" src="https://github.com/user-attachments/assets/abb03bd5-6358-4573-a7f9-71d3cfcd9bd5" />
@@ -83,3 +83,54 @@ Overall, I think the data aligns well with our hypothesis (MNP > FeSO4)
 
 - Plot with names, some formatting issues
 <img width="957" height="783" alt="heatmap with names" src="https://github.com/user-attachments/assets/ec40a060-aaa1-4563-a139-dbc0f0a99709" />
+
+### Meeting Minutes
+**Aim 1** 
+- Don’t need figure legend for alpha diversity 
+- Box on top of whiskers
+- Ask ai to change the theme code to give off white background & separate panels
+- **Figure 1**: Anemic and healthy - 4 panels, A) Shannon, B) Faith’s PD, C) Bray Curtis, D) Unweighted (doesn’t consider abundance) 
+
+**Aim 2** 
+- **Figure 2**: 2 panels, A) Core Microbiome Healthy; B) Core Microbiome Anemic
+- Only in the anemic infants, we have more unique taxa (esp feso4)
+  - Look whether those core microbiome taxa are unique to high iron environment
+  - Enterococcus and Clostridium are fast growers
+- ISA: Blast
+  - Go to QIIME, look at ASV for clostridium innocuum – BLAST it so that we can see if it’s a true clostridium
+  - BLAST all 4 actually - look at refseq file (to get actual taxonomy) - need to go in and change the labels on the table/figure with the actual species name 
+- **Table 1** = ISA (with the 4 taxa), **AFTER FIGURE 3, BEFORE FIGURE 4**
+  - order family genus stat p value - could also look for species
+  - stat value of 0.9 is a very strong indicator of FeSO4? 
+
+**Aim 3**
+- **Figure 3**: 3 panels (all anemic) from Deseq A) FeSO4 vs None, B) MNP vs None, C) FeSO4 vs MNP
+- **Sup 1**: Healthy figures will be in supplemental information - only if we reference in the manuscript
+  - S1a) Healthy, FeSO4 vs none (deseq)
+  - S1b) Healthy, MNP vs none (deseq)
+  - S1c) Healthy, FeSO4 vs MNP (deseq)
+- Use the same colours for deseq plots and picrust plots
+
+**Aim4**
+- Put reference on right side of title
+- MNP is promoting a higher functional profile? 
+- Downregulated pathways are pathways that microbes downregulate with stress
+- **Figure 4**: anemic Picrust; A) FeSO4 vs None, B) MNP vs None, C) FeSO4 vs MNP
+
+
+**Overall Story**
+- Slowly narrow things down, eventually focus more on anemic & FeSO4
+  - Can still claim MNP has better absorption because the results can be explained by that MNP left less unabsorbed iron for bacteria to use?  
+  - Story = no large change in overall community structure, but in anemic infants, for feso4, we’re seeing enrichment in clostridium + also an indicator of feso4 conditions, might not be driving any functional changes
+- Enriched /depleted – terminology 
+  - Explore only Anemic after deseq
+  - Comment on mainly FeSO4
+- Manuscript
+  - Methods → blasted key microbes with BLAST & Silva
+
+### To do
+- Everyone - upload your revised figures to google drive here: 475_Team13
+- BLAST sequences for ISA table 
+- Draft powerpoint by next Thursday 
+- Presenting on Thursday Apr 9
+
