@@ -6,7 +6,7 @@ library(ggVennDiagram)
 library("sf")
 
 #### Load data ####
-load("../MICB475_anemia_phyloseq_object/anemia_final.RData")
+load("anemia_final.RData")
 
 #Create another object to filter the phyloseq object to include only samples where anemia is "anemic" or "normal"
 anemia_final_filtered <- subset_samples(anemia_final, anemia %in% c("anemic", "normal"))
