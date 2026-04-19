@@ -1,0 +1,26 @@
+# Export data
+mkdir picrust
+
+qiime tools export \
+   --input-path feature-frequency-filtered-table.qza \
+   --output-path picrust
+
+qiime tools export \
+   --input-path rep-seqs.qza \
+   --output-path picrust
+
+# Switch to the PICRUSt2 environment
+conda deactivate
+conda activate picrust2
+
+# Run PICRUSt2
+picrust2_pipeline.py \
+   -s picrust/dna-sequences.fasta \
+   -i picrust/feature-table.biom \
+   -o picrust_out
+
+# Export anemia_metadata.txt to local computer
+scp root@10.19.139.196:/datasets/project_2/anemia/anemia_metadata.txt .
+
+# Export path_abun_unstrat.tsv to local computer
+scp root@10.19.139.196:/data/picrust_out/KO_metagenome_out/KO_pred_metagenome_unstrat.tsv .
