@@ -169,30 +169,30 @@ make_barplot <- function(res_df, physeq_obj, title) {
 }
 
 # ALL INFANTS
-bar_MNP_None <- make_barplot(res_MNP_vs_None, anemia_final, "MNP vs None")
-bar_FeSO4_None <- make_barplot(res_FeSO4_vs_None, anemia_final, "FeSO4 vs None")
+bar_MNP_None <- make_barplot(res_MNP_vs_None, anemia_final, "MNP vs No Supplement")
+bar_FeSO4_None <- make_barplot(res_FeSO4_vs_None, anemia_final, "FeSO4 vs No Supplement")
 bar_MNP_FeSO4 <- make_barplot(res_MNP_vs_FeSO4, anemia_final, "MNP vs FeSO4")
 
 # ANEMIC ONLY
-bar_MNP_None_ANEMIC <- make_barplot(res_MNP_vs_None_ANEMIC, anemia_only, "MNP vs No Supplement")
-bar_FeSO4_None_ANEMIC <- make_barplot(res_FeSO4_vs_None_ANEMIC, anemia_only, "FeSO4 vs No Supplement")
-bar_MNP_FeSO4_ANEMIC <- make_barplot(res_MNP_vs_FeSO4_ANEMIC, anemia_only, "MNP vs FeSO4")
+bar_MNP_None_ANEMIC <- make_barplot(res_MNP_vs_None_ANEMIC, anemia_only, "Anemic: MNP vs No Supplement")
+bar_FeSO4_None_ANEMIC <- make_barplot(res_FeSO4_vs_None_ANEMIC, anemia_only, "Anemic: FeSO4 vs No Supplement")
+bar_MNP_FeSO4_ANEMIC <- make_barplot(res_MNP_vs_FeSO4_ANEMIC, anemia_only, "Anemic: MNP vs FeSO4")
 
 # HEALTHY ONLY
-bar_MNP_None_nonANEMIC <- make_barplot(res_MNP_vs_None_nonANEMIC, nonanemia_only, "Healthy MNP vs None")
-bar_FeSO4_None_nonANEMIC <- make_barplot(res_FeSO4_vs_None_nonANEMIC, nonanemia_only, "Healthy FeSO4 vs None")
-bar_MNP_FeSO4_nonANEMIC <- make_barplot(res_MNP_vs_FeSO4_nonANEMIC, nonanemia_only, "Healthy MNP vs FeSO4")
+bar_MNP_None_nonANEMIC <- make_barplot(res_MNP_vs_None_nonANEMIC, nonanemia_only, "Healthy: MNP vs No Supplement")
+bar_FeSO4_None_nonANEMIC <- make_barplot(res_FeSO4_vs_None_nonANEMIC, nonanemia_only, "Healthy: FeSO4 vs No Supplement")
+bar_MNP_FeSO4_nonANEMIC <- make_barplot(res_MNP_vs_FeSO4_nonANEMIC, nonanemia_only, "Healthy: MNP vs FeSO4")
 
 # save plots
-ggsave("results/bar_MNP_vs_None.png", bar_MNP_None, width = 10, height = 6)
-ggsave("results/bar_FeSO4_vs_None.png", bar_FeSO4_None, width = 10, height = 6)
-ggsave("results/bar_MNP_vs_FeSO4.png", bar_MNP_FeSO4, width = 10, height = 6)
+ggsave("results/bar_MNP_vs_None.png", bar_MNP_None, width = 6, height = 4)
+ggsave("results/bar_FeSO4_vs_None.png", bar_FeSO4_None, width = 6, height = 4)
+ggsave("results/bar_MNP_vs_FeSO4.png", bar_MNP_FeSO4, width = 6, height = 4)
 
 ggsave("results/bar_MNP_vs_None_ANEMIC.png", bar_MNP_None_ANEMIC, width = 6, height = 4)
 ggsave("results/bar_FeSO4_vs_None_ANEMIC.png", bar_FeSO4_None_ANEMIC, width = 6, height = 4)
 ggsave("results/bar_MNP_vs_FeSO4_ANEMIC.png", bar_MNP_FeSO4_ANEMIC, width = 6, height = 4)
 
-ggsave("results/bar_MNP_vs_None_NONANEMIC.png", bar_MNP_None_nonANEMIC, width = 10, height = 6)
-ggsave("results/bar_FeSO4_vs_None_NONANEMIC.png", bar_FeSO4_None_nonANEMIC, width = 10, height = 6)
-ggsave("results/bar_MNP_vs_FeSO4_NONANEMIC.png", bar_MNP_FeSO4_nonANEMIC, width = 10, height = 6)
+ggsave("results/bar_MNP_vs_None_NONANEMIC.png", bar_MNP_None_nonANEMIC, width = 6, height = 4)
+ggsave("results/bar_FeSO4_vs_None_NONANEMIC.png", bar_FeSO4_None_nonANEMIC, width = 6, height = 4)
+ggsave("results/bar_MNP_vs_FeSO4_NONANEMIC.png", bar_MNP_FeSO4_nonANEMIC, width = 6, height = 4)
 
