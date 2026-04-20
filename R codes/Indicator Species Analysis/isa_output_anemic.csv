@@ -1,0 +1,5 @@
+"ASV","s.FeSO4","s.MNP","s.None","index","stat","p.value","Domain","Phylum","Class","Order","Family","Genus","Species"
+"142a9c61213ee7480a1c7b0eee5fc2c7",1,0,0,1,0.914667392453338,0.015,"d__Bacteria","p__Bacillota","c__Bacilli","o__Erysipelotrichales","f__Erysipelotrichaceae","g__[Clostridium]_innocuum_group",NA
+"d23fbef2f31d48eda40876cdbc49933a",1,0,0,1,0.77507591869316,0.045,"d__Bacteria","p__Bacillota","c__Bacilli","o__Staphylococcales","f__Staphylococcaceae","g__Staphylococcus",NA
+"488dafc6acd6262cd5fdaa5accb58c3a",1,0,0,1,0.707106781186548,0.04,"d__Bacteria","p__Bacillota","c__Clostridia","o__Oscillospirales","f__Oscillospiraceae","g__Colidextribacter",NA
+"c1310e0b3b6813e4558e82286ab4f8d7",1,0,0,1,0.683008150438354,0.03,"d__Bacteria","p__Bacillota","c__Clostridia","o__Lachnospirales","f__Lachnospiraceae","g__Sellimonas",NA

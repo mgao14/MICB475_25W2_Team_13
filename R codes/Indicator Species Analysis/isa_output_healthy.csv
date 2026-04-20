@@ -1,0 +1,9 @@
+ASV,s.FeSO4,s.MNP,s.None,index,stat,p.value,Domain,Phylum,Class,Order,Family,Genus,Species
+e17d964cd0fd8c2ddbd1dacfa8b536e3,0,0,1,3,0.579553897,0.03,d__Bacteria,p__Bacteroidota,c__Bacteroidia,o__Bacteroidales,f__Tannerellaceae,g__Parabacteroides,NA
+4f363011ef8cbd14bc5502b6d631d171,0,1,1,6,0.808290652,0.015,d__Bacteria,p__Bacillota,c__Bacilli,o__Lactobacillales,f__Lactobacillaceae,g__Limosilactobacillus,NA
+fd2130b6a8a1db45c0f5381012b2e5e7,0,0,1,3,0.48507125,0.035,d__Bacteria,p__Bacillota,c__Clostridia,o__Christensenellales,f__Christensenellaceae,g__Christensenellaceae_R-7_group,NA
+488dafc6acd6262cd5fdaa5accb58c3a,0,0,1,3,0.48507125,0.045,d__Bacteria,p__Bacillota,c__Clostridia,o__Oscillospirales,f__Oscillospiraceae,g__Colidextribacter,NA
+504b5f0d2545c712940d4b9772a89711,0,0,1,3,0.48507125,0.045,d__Bacteria,p__Bacillota,c__Clostridia,o__Lachnospirales,f__Lachnospiraceae,g__Lachnospiraceae_ND3007_group,NA
+6a6fcf8f9b8bb1ab9e5f8456ee7fb109,0,0,1,3,0.77361428,0.01,d__Bacteria,p__Bacillota,c__Clostridia,o__Lachnospirales,f__Lachnospiraceae,g__Mediterraneibacter,NA
+a0b7d83fb64749f9a4b15b3728425b97,0,0,1,3,0.48507125,0.035,d__Bacteria,p__Bacillota,c__Clostridia,o__Lachnospirales,f__Lachnospiraceae,g__Coprococcus,NA
+470dd02996e31255357eeeaa3672b469,0,0,1,3,0.48507125,0.04,d__Bacteria,p__Bacillota,c__Clostridia,o__Lachnospirales,f__Lachnospiraceae,g__Lachnospiraceae_NK4A136_group,NA
