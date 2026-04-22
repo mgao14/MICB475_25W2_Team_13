@@ -164,7 +164,7 @@ pcoa_bc <- ordinate(anemia_rare, method="PCoA", distance=distance(anemia_rare, m
 #PCoA plot
 gg_bc <- plot_ordination(anemia_rare, pcoa_bc, color = "supplement") +
   labs(col = "Supplement",
-       x = "PC1 (32.3%)",
+       x = "PC1 (32.3%)", #after kowning % from not adding axes labels
        y = "PC2 (9.9%)") +
   stat_ellipse(aes(group = supplement)) +
   scale_color_discrete(labels = c("None" = "No\nsupplement")) +
@@ -226,14 +226,3 @@ gg_uf
 ggsave("plot_unweighted_unifrac.png"
        , gg_uf
        , height=7, width=7)
-
-
-#### Citation ####
-citation("phyloseq")
-citation("ape")
-citation("tidyverse")
-citation("ggsignif")
-citation("ggforce")
-citation("vegan")
-citation("picante")
-
